@@ -1,0 +1,832 @@
+<!DOCTYPE html>
+<html lang = "bg">
+<head>
+    <meta charset="utf-8"/>
+    <title>28Cities</title>
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <link href="https://fonts.googleapis.com/css?family=Crimson+TextWork+Sans:400,700" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src = "index.js">
+    </script>
+    
+    
+</head>
+<body>
+	<header>
+        <div class = "Menu" id = "Nachalo">
+           <div class = "the_button"> 
+                <div class = "menu_button"  onclick="myFunction('dropdown-mobile')"></div>
+                <div class = "menu_button" onclick="myFunction('dropdown-mobile')"></div>
+                <div class = "menu_button" onclick="myFunction('dropdown-mobile')"></div>
+                <div id = "dropdown-mobile">
+                    <button class = "button-mobile"  onclick="myFunction('dropdown-mobile-YZ')">Югозападен</button>
+                    <div id = "dropdown-mobile-YZ" class = "dropdown-mobile-more">
+                        <a href="#Sof">Sofia</a><br>
+                        <a href="#Prn">Pernik</a><br>
+                        <a href="#Blg">Blagoevgrad</a><br>
+                        <a href="#Kyu">Kyustendil</a> 
+                    </div>
+    
+                    <br>
+                    <button class = "button-mobile"  onclick="myFunction('dropdown-mobile-YC')">Южен Централен</button>
+                    <div id = "dropdown-mobile-YC" class = "dropdown-mobile-more">
+                        <a href="#Plv">Plovdiv</a><br>
+                        <a href="#Has">Haskovo</a><br>
+                        <a href="#Paz">Pazardjik</a><br>
+                        <a href="#Kar">Kardzhali</a><br>
+                        <a href="#Smo">Smolqn</a>    
+                    </div>
+                    <br>
+                    <button class = "button-mobile" onclick="myFunction('dropdown-mobile-YI')">Югоизточен</button>
+                    <div id = "dropdown-mobile-YI" class = "dropdown-mobile-more">
+                        <a href="#Bur">Burgas</a><br>
+                        <a href="#Stz">Stara Zagora</a><br>
+                        <a href="#Sli">Sliven</a><br>
+                        <a href="#Yam">Yambol</a>   
+                    </div>
+                    <br>
+                    <button class = "button-mobile"  onclick="myFunction('dropdown-mobile-SZ')">Северозападен</button>
+                    <div id = "dropdown-mobile-SZ" class = "dropdown-mobile-more">
+                        <a href="#Var">Varna</a><br>
+                        <a href="#Dob">Dobrich</a><br>
+                        <a href="#Shu">Shumen</a><br>
+                        <a href="#Sil">Silistra</a>   
+                    </div>
+                    <br>
+                    <button class = "button-mobile"  onclick="myFunction('dropdown-mobile-SC')">Северен Централен</button>
+                    <div id = "dropdown-mobile-SC" class = "dropdown-mobile-more">
+                        <a href="#Rus">Ruse</a><br>
+                        <a href="#Vel">Veliko Tarnovo</a><br>
+                        <a href="#Gab">Gabrovo</a><br>
+                        <a href="#Raz">Razgrad</a><br>
+                        <a href="#Tar">Targovishte</a>    
+                    </div>
+                    <br>
+                    <button class = "button-mobile"  onclick="myFunction('dropdown-mobile-SI')">Североизточен</button>
+                    <div id = "dropdown-mobile-SI" class = "dropdown-mobile-more">
+                        <a href="#Ple">Pleven</a><br>
+                        <a href="#Vid">Vidin</a><br>
+                        <a href="#Vra">Vratsa</a><br>
+                        <a href="#Mon">Montana</a><br>
+                        <a href="#Lov">Lovetch</a>    
+                    </div>
+                </div>
+            
+            </div>
+            
+            <div class = "one">
+                <button class="dropbtn" onclick="location.href= '#Sof'">Топ 7</button>
+                <div class = "dropdown-content">
+                    <a href="#Sof">Sofia</a>
+                    <a href="#Plv">Plovdiv</a>
+                    <a href="#Var">Varna</a>
+                    <a href="#Bur">Burgas</a>
+                    <a href="#Stz">Stara Zagora</a>
+                    <a href="#Rus">Ruse</a>
+                    <a href="#Ple">Pleven</a>
+                </div>
+            </div>
+            <div class = "one">
+                <!--<a href = "#YZ"><button class="dropbtn">Югозападен</button></a> -->
+                <button class="dropbtn" onclick="location.href= '#YZ'">Югозападен</button>
+                <div class = "dropdown-content">
+                    <a href="#Sof">Sofia</a>
+                    <a href="#Prn">Pernik</a>
+                    <a href="#Blg">Blagoevgrad</a>
+                    <a href="#Kyu">Kyustendil</a>    
+                </div>
+            </div>
+
+            <div class = "one">
+                <!--<a href = "#YC"><button class="dropbtn">Южен централен</button></a>-->
+                <button class="dropbtn" onclick="location.href= '#YC'">Южен централен</button>
+                <div class = "dropdown-content">
+                    <a href="#Plv">Plovdiv</a>
+                    <a href="#Has">Haskovo</a>
+                    <a href="#Paz">Pazardjik</a>
+                    <a href="#Kar">Kardzhali</a>
+                    <a href="#Smo">Smolqn</a>    
+                </div>
+
+            </div>
+
+            <div class = "one">
+                <button class="dropbtn" onclick="location.href= '#YI'">Югоизточен</button>
+                <div class = "dropdown-content">
+                    <a href="#Bur">Burgas</a>
+                    <a href="#Stz">Stara Zagora</a>
+                    <a href="#Sli">Sliven</a>
+                    <a href="#Yam">Yambol</a>   
+                </div>
+
+            </div>
+
+            <div class = "one">
+                <button class="dropbtn" onclick="location.href= '#SI'">Североизточен</button>
+                <div class = "dropdown-content">
+                    <a href="#Var">Varna</a>
+                    <a href="#Dob">Dobrich</a>
+                    <a href="#Shu">Shumen</a>
+                    <a href="#Sil">Silistra</a>   
+                </div>
+
+            </div>
+
+            <div class = "one">
+                <button class="dropbtn" onclick="location.href= '#SC'">Северен централен</button>
+                <div class = "dropdown-content">
+                    <a href="#Rus">Ruse</a>
+                    <a href="#Vel">Veliko Tarnovo</a>
+                    <a href="#Gab">Gabrovo</a>
+                    <a href="#Raz">Razgrad</a>
+                    <a href="#Tar">Targovishte</a>    
+                </div>
+
+            </div>
+            <div class = "one">
+                <button class="dropbtn" onclick="location.href= '#SZ'">Северoзападен</button>
+                <div class = "dropdown-content">
+                    <a href="#Ple">Pleven</a>
+                    <a href="#Vid">Vidin</a>
+                    <a href="#Vra">Vratsa</a>
+                    <a href="#Mon">Montana</a>
+                    <a href="#Lov">Lovetch</a>    
+                </div>
+
+            </div>
+            
+            
+            
+        </div>
+        
+    </header>
+    <div class = "main">
+        <a href = "#Nachalo">
+    
+            <div id = "go_back2">
+            </div>
+        </a> 
+        <a>
+            <div id = "go_back3">
+            </div>
+            
+        </a>
+        <div class = "images7">
+        
+            <div style="background-image: url(resources/Sofia.jpg);" class = "Sofia">
+               
+                <a id = "Sof">Sofia, 1.241 mln</a>
+               
+                <!-- The Modal -->
+                <div id="myModal0" class="modal">
+
+                    <!-- Modal content -->
+                    <div class="modal-content">
+                    <span class="close">&times;</span>
+                    <p>  
+                        Со̀фия е столицата и най-големият град в България. Тя е 14-ият по големина град в Европейския съюз, с население 1 241 675 души (2019). 
+                        По резултатите от преброяването през 2011 г. населението на града е 1 291 591, което представлява 17,5% от населението на България.
+                        София е разположена в централната част на Западна България, в Софийската котловина, и е заобиколена от планини: Витоша и Плана на юг,
+                        Софийска планина (част от Стара планина) на север, Люлин на запад, и Лозенска планина (част от Ихтиманска Средна гора) на изток. 
+                        Това я прави четвъртата по височина столица в Европа. Изградена е върху четирите тераси на река Искър и нейните притоци: Перловска и Владайска (Елешница).
+                         В централната градска част, както и в кварталите Овча купел, Княжево, Горна баня и Панчарево, има минерални извори. Климатът на София е умереноконтинентален.
+                         <br><span><a href = "https://bg.wikipedia.org/wiki/%D0%A1%D0%BE%D1%84%D0%B8%D1%8F" target="_blank">Още...</a></span>
+                    </p>
+                
+                    </div>
+                
+                </div>
+                <a href = "#YZ">
+                    <div class = "go_back" id = "go_back_sofia">
+                    </div>
+                </a>
+                <script>
+                    modalit("myModal0", "Sof", 0);
+                    
+                </script>
+               
+             
+            </div>
+           
+            <div style="background-image: url(resources/Plovdiv.jpg);" class = "Plovdiv">
+                
+                <a id = "Plv">Plovdiv, 0.347 mln</a>
+                <!-- The Modal -->
+                <div id="myModal1" class="modal">
+
+                    <!-- Modal content -->
+                    <div class="modal-content">
+                    <span class="close">&times;</span>
+                    <p>Пло̀вдив е вторият по големина град в България с население 347 851 души по настоящ адрес (към 31.12.2019 г.).[1] Намира се в западната част на Горнотракийската низина,
+                         на двата бряга на река Марица. Отстои на 15 km северно от Родопите и на 50 km южно от Стара планина. Градът е застроен в подножията на шест сиенитни хълма,
+                          поради което често е наричан „Градът под тепетата“. 
+                        Пловдив е управленски център на област Пловдив, община Пловдив, община Марица, община Родопи и е най-голямото стопанско ядро на Южния централен район.
+                        <br><span><a href = "https://bg.wikipedia.org/wiki/%D0%9F%D0%BB%D0%BE%D0%B2%D0%B4%D0%B8%D0%B2" target="_blank">Още...</a></span>
+                    </p>
+                    </div>
+                
+                </div>
+                <a href = "#YC">
+                    <div class = "go_back" id = "go_back_plovdiv">
+                    </div>
+                </a>
+                <script>
+                    modalit("myModal1", "Plv", 1);
+                </script>
+            </div>
+            <div style="background-image: url(resources/Varna.jpg);" class = "Varna">
+                
+                <a id = "Var">Varna, 0.336 mln</a>
+                <!-- The Modal -->
+                <div id="myModal2" class="modal">
+
+                    <!-- Modal content -->
+                    <div class="modal-content">
+                    <span class="close">&times;</span>
+                    <p>Ва̀рна е най-големият град в Североизточна България, разположен по бреговете на Черно море и Варненското езеро и е административен център на едноименните община и област. 
+                        Той е най-големият град в Северна България и по българското Черноморие. Населението на града по сведения на НСИ към 31 декември 2019 г. се изчислява на 336 216 души, 
+                        което поставя Варна на трето място в България (след София и Пловдив). На територията му е разположено Адмиралтейството на Българската армия. 
+                        Варна често се нарича „морската столица“ или „лятната столица на България“ и е важен туристически и просветен център, изходна точка за курортите по Северното
+                         Черноморие.
+                         <br><span><a href = "https://bg.wikipedia.org/wiki/%D0%92%D0%B0%D1%80%D0%BD%D0%B0" target="_blank">Още...</a></span>
+                    </p>
+                    </div>
+                
+                </div>
+                <a href = "#SI">
+                    <div class = "go_back" id = "go_back_varna">
+                    </div>
+                </a>
+                <script>
+                    modalit("myModal2", "Var", 2);
+                </script>
+            </div>
+            <div style="background-image: url(resources/Burgas.jpg);" class = "Burgas">
+              
+                <a id = "Bur">Burgas, 0.203 mln</a>
+                 <!-- The Modal -->
+                 <div id="myModal3" class="modal">
+
+                    <!-- Modal content -->
+                    <div class="modal-content">
+                    <span class="close">&times;</span>
+                    <p>Бурга̀с е най-големият град в Югоизточна България и вторият по големина на българското Черноморие, а със своето землище от 253,644 km², 
+                        той е вторият град по площ в България (след София). Според последното преброяване на НСИ към 31 декември 2019 г. населението е 203 299 жители и така продължава да е
+                         четвъртият по големина град в страната (след София, Пловдив и Варна). Бургас е най-важният културен, стопански, транспортен, управленски, туристически и просветен 
+                         център в Югоизточна България. 
+                         Градът е административно средище на едноименната община и област, както и седалище на регионални и национални институции.
+                         <br><span><a href = "https://bg.wikipedia.org/wiki/%D0%91%D1%83%D1%80%D0%B3%D0%B0%D1%81" target="_blank">Още...</a></span>
+                    </p>
+                    </div>
+                    
+                </div>
+                <a href = "#YI">
+                    <div class = "go_back" id = "go_back_burgas">
+                    </div>
+                </a>
+                <script>
+                    modalit("myModal3", "Bur", 3);
+                </script>
+            </div>
+            <div style="background-image: url(resources/Ruse.jpg);" class = "Ruse">
+                <a id = "Rus">Ruse, 0.141 mln</a>
+                 <!-- The Modal -->
+                 <div id="myModal4" class="modal">
+
+                    <!-- Modal content -->
+                    <div class="modal-content">
+                    <span class="close">&times;</span>
+                    <p>Ру̀се е най-големият български град по поречието на река Дунав и петият град по големина в страната. 
+                        Разположен е на североизточната граница на страната с Румъния. Градът е административен център на община Русе и област Русе, както и икономически, 
+                        транспортен, културен и образователен център от регионално и национално значение. Населението на Русе е 141 231 души (по данни на НСИ към 31.12.2019 г.),
+                         което го затвърждава като петия по големина град в България. Отстоящ на 310 km от София и на 75 km от румънската столица Букурещ, градът е потенциален
+                          стратегически интермодален и логистичен център на страната и на Югоизточна Европа, като се има предвид географското му положение, утвърдената му роля 
+                          на важен промишлен център, както и наличието на първия в страната пътен и железопътен мост над река Дунав – Дунав мост. Реката приобщава града и към е
+                          вропейския транспортен коридор № 7, създавайки условия за търговско и круизно речно плаване.
+                          <br><span><a href = "https://bg.wikipedia.org/wiki/%D0%A0%D1%83%D1%81%D0%B5" target="_blank">Още...</a></span>
+                    </p>
+                    </div>
+                
+                </div>
+                <a href = "#SC">
+                    <div class = "go_back" id = "go_back_ruse">
+                    </div>
+                </a>
+                <script>
+                    modalit("myModal4", "Rus", 4);
+                </script>
+            </div>
+            <div style="background-image: url(resources/StaraZagora.jpg);" class = "StaraZagora">
+                <a id = "Stz">Stara Zagora, 0.134 mln</a>
+                 <!-- The Modal -->
+                 <div id="myModal5" class="modal">
+
+                    <!-- Modal content -->
+                    <div class="modal-content">
+                    <span class="close">&times;</span>
+                    <p>Ста̀ра Заго̀ра е град в Южна България, един от основните икономически центрове в страната, както и основен транспортен възел на Южна България. 
+                        Той е център на едноименните община, област и регионална асоциация на общините РАО Тракия. Градът е шестият по големина в страната с население от 134 726 
+                        души по данни на НСИ към 31.12.2019 г. и образува петата по големина градска агломерация в България с население от 213 444 жители (към септември 2007 г.), 
+                        както и център на 5-ата по големина област в България с население към 31 декември 2016 г. от 321 377 души. Стабилното икономическо развитие на 
+                        региона му отрежда второ място по БВП на глава от населението в страната.
+                        <br><span><a href = "https://bg.wikipedia.org/wiki/%D0%A1%D1%82%D0%B0%D1%80%D0%B0_%D0%97%D0%B0%D0%B3%D0%BE%D1%80%D0%B0" target="_blank">Още...</a></span>
+
+                    </p>
+                    </div>
+                
+                </div>
+                <a href = "#YI">
+                    <div class = "go_back" id = "go_back_stz">
+                    </div>
+                </a>
+                <script>
+                    modalit("myModal5", "Stz", 5);
+                </script>
+            </div>
+            
+            <div style="background-image: url(resources/Pleven.jpg);" class = "Pleven">
+                <a id = "Ple">Pleven, 0.095 mln</a>
+                 <!-- The Modal -->
+                 <div id="myModal6" class="modal">
+
+                    <!-- Modal content -->
+                    <div class="modal-content">
+                    <span class="close">&times;</span>
+                    <p>Плѐвен (изписване до 1945 година: Плѣвенъ) е град в Централна Северна България. Той е административен център на едноименните община Плевен и област Плевен, както и 
+                        един от важните културни, образователни, икономически и транспортни центрове в страната. Плевен и неговата околност имат корени от дълбока древност и практически 
+                        непрекъснато хилядолетно развитие. В края на 2019 г. населението на града се оценява на 95 086 души, което го прави седми по големина в Република България. 
+                        Плевен е известен туристически център, наричан още „град на музеите“. В него са съсредоточени множество културно-исторически забележителности, свързани с Ру
+                        ско-турската Освободителна война, най-популярни от които са Панорама „Плевенска епопея 1877 г.“ и Параклис-мавзолей „Св. Георги Победоносец“, които нар
+                        ед със сградата на Регионалният исторически музей са символите на града.
+                        <br><span><a href = "https://bg.wikipedia.org/wiki/%D0%9F%D0%BB%D0%B5%D0%B2%D0%B5%D0%BD" target="_blank">Още...</a></span>
+
+                    </p>
+                    </div>
+                
+                </div>
+                <a href = "#SZ">
+                    <div class = "go_back" id = "go_back_pleven">
+                    </div>
+                </a>
+                <script>
+                    modalit("myModal6", "Ple", 6);
+                </script>
+            </div>
+            
+
+        </div>
+
+        <div class = "imagesYZ">
+            <h1 id = "YZ">Югозападен Район</h1> 
+            <p onclick = 'checkForId("go_back_sofia")' class = "gradli" id = "Sofeto"><a href = "#Sof">Sofia</a></p>
+            <div style="background-image: url(resources/Pernik.jpg);" class = "Pernik">
+                <a id = "Prn">Pernik, 0.073 mln</a>
+                <div id="myModal7" class="modal">
+
+                    <!-- Modal content -->
+                    <div class="modal-content">
+                    <span class="close">&times;</span>
+                    <p>Перник е град в Западна България, административен център на област Перник и община Перник. По последни данни на НСИ към 31.12.2018 г. населението му наброява 73 111 души, 
+                        което го прави най-многочисления град в Западна България след столицата София и го нарежда на 11-о място в страната.
+
+                        В града се провежда един от най-големите фестивали в Европа – международният маскараден кукерски фестивал „Сурва“. Перник е член на Федерацията на европейските карнавални градове, както е и нейно седалище за България. През 2009 г. официално е обявен за европейска карнавална столица заради този фестивал.
+                        
+                        Още от създаването си през 9 век градът носи името Перник. Първите сведения за уседнал живот в района на Перник датират от 6000 г. пр. Хр.(ранен неолит). В 
+                        годините преди да падне окончателно под властта на Византия градът служи за столица на земите между Дунав и Стара планина. Днес градът е сред индустриалните
+                         центрове на България.
+                         <br><span><a href = "https://bg.wikipedia.org/wiki/%D0%9F%D0%B5%D1%80%D0%BD%D0%B8%D0%BA" target="_blank">Още...</a></span>
+                        </p>
+                        
+                    </div>
+                    <script>
+                        modalit("myModal7", "Prn", 7);
+                    </script>
+                
+                </div>
+            </div>
+            <div style="background-image: url(resources/Blagoevgrad.jpg);" class = "Blagoevgrad">
+                <a id = "Blg">Blagoevgrad, 0.069 mln</a>
+                <div id="myModal8" class="modal">
+
+                    <!-- Modal content -->
+                    <div class="modal-content">
+                    <span class="close">&times;</span>
+                    <p>Благо̀евград (до 1950 г. Го̀рна Джумая̀) е икономически, културен и образователен център на Югозападна България и административен център на едноименните област и община. 
+                        Според преброяване на Националния статистически институт към 31 декември 2018 година, градът е с население от 69 178 души.
+                        
+                        <br><span><a href = "https://bg.wikipedia.org/wiki/%D0%91%D0%BB%D0%B0%D0%B3%D0%BE%D0%B5%D0%B2%D0%B3%D1%80%D0%B0%D0%B4" target="_blank">Още...</a></span>
+                    </p>
+                    </div>
+                    <script>
+                        modalit("myModal8", "Blg", 8);
+                    </script>
+                
+                </div>
+            </div>
+            <div style="background-image: url(resources/Kyustendil.jpeg);" class = "Kyustendil">
+                <a id = "Kyu">Kyustendil, 0.039 mln</a>
+                <div id="myModal9" class="modal">
+
+                    <!-- Modal content -->
+                    <div class="modal-content">
+                    <span class="close">&times;</span>
+                    <p>Кюстендѝл (в Средновековието: Велбъжд, в Античността: Пауталия) е град в Югозападна България, административен център на едноименната област и община.
+
+                        Намира се в близост до границата с Република Северна Македония и с Република Сърбия. Балнеоложки и туристически център с национално и международно значение, археологически и архитектурен резерват, изходен пункт за туризъм и ски спорт в планината Осогово.
+                        
+                        Според оценка на НСИ населението на Кюстендил е 39 284 жители към 31 декември 2019 година.
+                    
+                    <br><span><a href = "https://bg.wikipedia.org/wiki/%D0%9A%D1%8E%D1%81%D1%82%D0%B5%D0%BD%D0%B4%D0%B8%D0%BB" target="_blank">Още...</a></span>
+                    </p>
+                    </div>
+                    <script>
+                        modalit("myModal9", "Kyu", 9);
+                    </script>
+                
+                </div>
+
+            </div>
+        </div>
+
+        <div class = "imagesYC">
+            <h1 id = "YC">Южен централен</h1>
+            <p onclick = 'checkForId("go_back_plovdiv")' class = "gradli"><a href = "#Plv">Plovdiv</a></p>
+            <div style="background-image: url(resources/Haskovo.jpg);" class = "Haskovo">
+                <a id = "Has">Haskovo, 0.070 mln</a>
+                <div id="myModal10" class="modal">
+
+                    <!-- Modal content -->
+                    <div class="modal-content">
+                    <span class="close">&times;</span>
+                    <p>Ха̀сково е град в централна Южна България. Той е административен център на община Хасково и област Хасково. Според последните данни на НСИ, към 31 декември 2018 г., Хасково е с население 70 406 души и е 12-ият по големина град в страната.
+
+                        През Хасково минава най-бързият и пряк път, свързващ Европа с Азия и Близкия изток. Недалеч от границите с Турция и Гърция, Хасково се е превърнал в център на международен, търговски и културен обмен. Наличието на тези показатели превръщат Хасково и региона в привлекателна дестинация за развитието на промишленост, в сферата на строителство и машиностроене
+                         за хранително-вкусовата промишленост, химическа промишленост, винопроизводство, производството на храни, напитки и тютюневи изделия, шивашка и текстилна индустрия.
+                        <br><span><a href = "https://bg.wikipedia.org/wiki/%D0%A5%D0%B0%D1%81%D0%BA%D0%BE%D0%B2%D0%BE" target="_blank">Още...</a></span>
+                    </p>
+                    </div>
+                    <script>
+                        modalit("myModal10", "Has", 10);
+                    </script>
+            </div>
+            </div>
+            <div style="background-image: url(resources/Pazardjik.jpg);" class = "Pazardjik">
+                <a id = "Paz">Pazardjik, 0.068 mln</a>
+                <div id="myModal11" class="modal">
+
+                    <!-- Modal content -->
+                    <div class="modal-content">
+                    <span class="close">&times;</span>
+                    <p>Па̀зарджик е областен град в Южна България, административен център на община Пазарджик и на област Пазарджик. Намира се на 37 km западно от Пловдив и на 112 km югоизточно от София. Лежи на двата бряга на река Марица в западната част на Горнотракийската низина и е вторият
+                         най-важен културен и административен център в Южна Централна България. Последното преброяване на НСИ към края на 2018 г. оценява населението на града на 68 194 жители.
+                        
+                         <br><span><a href = "https://bg.wikipedia.org/wiki/%D0%9F%D0%B0%D0%B7%D0%B0%D1%80%D0%B4%D0%B6%D0%B8%D0%BA" target="_blank">Още...</a></span>
+                    </p>
+                    </div>
+                    <script>
+                        modalit("myModal11", "Paz", 11);
+                    </script>
+            </div>
+            </div>
+            <div style="background-image: url(resources/Kardzhali.jpg);" class = "Kardzhali">
+                <a id = "Kar">Kardzhali, 0.043 mln</a>
+                <div id="myModal12" class="modal">
+
+                    <!-- Modal content -->
+                    <div class="modal-content">
+                    <span class="close">&times;</span>
+                    <p>Кърджали (на турски: Kırcaali; на гръцки: Κάρντζαλι) е град в Южна България. Той е център на област Кърджали и на община Кърджали. Населението на град Кърджали към 31.12.2018 г. е 43 263 души. Намира се на 47 km от град Хасково, 
+                        на 84 km от град Смолян, на 95 km от град Пловдив, на 111 km от град Стара Загора, на 243 km от София, на 78 km от Гюмюрджина и на 383 km от Истанбул.
+                        
+                        <br><span><a href = "https://bg.wikipedia.org/wiki/%D0%9A%D1%8A%D1%80%D0%B4%D0%B6%D0%B0%D0%BB%D0%B8" target="_blank">Още...</a></span>
+                    </p>
+                    </div>
+                    <script>
+                        modalit("myModal12", "Kar", 12);
+                    </script>
+            </div>
+            </div>
+            <div style="background-image: url(resources/Smolqn.jpg);" class = "Smolqn">
+                <a id = "Smo">Smolqn, 0.027 mln</a>
+                <div id="myModal13" class="modal">
+
+                    <!-- Modal content -->
+                    <div class="modal-content">
+                    <span class="close">&times;</span>
+                    <p>Смо̀лян е град в Южна България. Намира се в Переликско-Преспанския дял на Западни Родопи при голяма надморска височина – 1035 m. Градът е образуван на 18 юни 1960 г. от двата града Смолян и Устово, и селата Райково и Езерово.
+                         Той е административен център на община Смолян и област Смолян.
+                        По данни на НСИ към 31.12.2019 г. населението му е 27 092 души, което го прави най-малкият областен град в България. Смолян е един от най-дългите градове в България – близо 25 km, което се дължи на линейното му застрояване по поречието на река Черна.
+                        
+                        <br><span><a href = "https://bg.wikipedia.org/wiki/%D0%A1%D0%BC%D0%BE%D0%BB%D1%8F%D0%BD" target="_blank">Още...</a></span>
+                    </p>
+                    </div>
+                    <script>
+                        modalit("myModal13", "Smo", 13);
+                    </script>
+            </div>
+             </div>
+
+        </div>
+
+        <div class = "imagesYI">
+            <h1 id = "YI">Югоизточен Район</h1>
+            <p onclick = 'checkForId("go_back_burgas")' class = "gradli"><a href = "#Bur">Burgas</a></p>
+            <p onclick = 'checkForId("go_back_stz")' class = "gradli"><a href = "#Stz">Stara Zagora</a></p>
+            <div style="background-image: url(resources/Sliven.jpg);" class = "Sliven">
+                <a id = "Sli">Sliven, 0.086 mln</a>
+                <div id="myModal14" class="modal">
+
+                    <!-- Modal content -->
+                    <div class="modal-content">
+                    <span class="close">&times;</span>
+                    <p>Слѝвен (изписване до 1945 година: Сливенъ) е град в Югоизточна България, разположен в близост до Ямбол и Нова Загора. Той е осмият по големина в страната и е административен център на община Сливен. Сливен е известен като Градът на стоте войводи, свързани с хайдушкото движение.
+
+                        По последни данни на НСИ към 31 декември 2019 г. населението на Сливен е 86 505 души, което го превръща в осмия по големина български град.
+                        
+                        <br><span><a href = "https://bg.wikipedia.org/wiki/%D0%A1%D0%BB%D0%B8%D0%B2%D0%B5%D0%BD" target="_blank">Още...</a></span>
+                    </p>
+                    </div>
+                    <script>
+                        modalit("myModal14", "Sli", 14);
+                    </script>
+            </div>
+            </div>
+            <div style="background-image: url(resources/Yambol.jpg);" class = "Yambol">
+                <a id = "Yam" >Yambol, 0.068 mln</a>
+                <div id="myModal15" class="modal">
+
+                    <!-- Modal content -->
+                    <div class="modal-content">
+                    <span class="close">&times;</span>
+                    <p>Я̀мбол е град в Югоизточна България. Той е административен център на област Ямбол, както и център и единствено населено място на община Ямбол. 
+                        Според последното преброяване на НСИ към 31.12.2018 г. населението на града е 68 074 души
+                
+                        <br><span><a href = "https://bg.wikipedia.org/wiki/%D0%AF%D0%BC%D0%B1%D0%BE%D0%BB" target="_blank">Още...</a></span>
+                    </p>
+                    </div>
+                    <script>
+                        modalit("myModal15", "Yam", 15);
+                    </script>
+            </div>
+            </div>
+            
+        </div>
+
+        <div class = "imagesSI">
+            <h1 id = "SI">Североизточен Район</h1>
+            <p onclick = 'checkForId("go_back_varna")' class = "gradli"><a href = "#Var">Varna</a></p>
+            <div style="background-image: url(resources/Dobrich.jpg);" class = "Dobrich">
+                <a id = "Dob">Dobrich, 0.082 mln</a>
+                <div id="myModal16" class="modal">
+
+                    <!-- Modal content -->
+                    <div class="modal-content">
+                    <span class="close">&times;</span>
+                    <p>До̀брич (Толбухин в периода 1949 – 1990 г., на името на маршал Фьодор Толбухин) е град в Североизточна България, административен и стопански център на област Добрич, община Добрич и община Добричка. Разположен е в южната част на историко-географската област Добруджа. 
+                        Градът е девети по големина в страната с население от 82 240 жители към 31.12.2019 г. по данни от НСИ[1] (92 633 жители по настоящ адрес към 15.04.2020 г. според ЕСГРАОН).
+                        <br><span><a href = "https://bg.wikipedia.org/wiki/%D0%94%D0%BE%D0%B1%D1%80%D0%B8%D1%87" target="_blank">Още...</a></span>
+                    </p>
+                    </div>
+                    <script>
+                        modalit("myModal16", "Dob", 16);
+                    </script>
+            </div>
+            </div>
+            <div style="background-image: url(resources/Shumen.jpg);" class = "Shumen">
+                <a id = "Shu">Shumen, 0.075 mln</a>
+                <div id="myModal17" class="modal">
+
+                    <!-- Modal content -->
+                    <div class="modal-content">
+                    <span class="close">&times;</span>
+                    <p>Шу̀мен (Коларовград в периода 1950 – 1965 г.) е град в Североизточна България, административен и стопански център на едноименните община Шумен и област Шумен. 
+                        Градът е десети по големина в страната с население от 75 442 жители към 31.12.2019 г. според НСИ[1] (85 504 жители по настоящ адрес към 15 декември 2019 г. според ЕСГРАОН).
+                
+                        <br><span><a href = "https://bg.wikipedia.org/wiki/%D0%A8%D1%83%D0%BC%D0%B5%D0%BD" target="_blank">Още...</a></span>
+                    </p>
+                    </div>
+                    <script>
+                        modalit("myModal17", "Shu", 17);
+                    </script>
+            </div>
+            </div>
+            <div style="background-image: url(resources/Silistra.jpg);" class = "Silistra">
+                <a id = "Sil">Silistra, 0.030 mln</a>
+                <div id="myModal18" class="modal">
+
+                    <!-- Modal content -->
+                    <div class="modal-content">
+                    <span class="close">&times;</span>
+                    <p>Силѝстра е пристанищен град на река Дунав в Североизточна България. Той е административен и стопански център на едноименните община Силистра и област Силистра. Според последното преброяване на НСИ към 31 декември 2019 година, населението е 30 983 жители. 
+                        Силистра е град с богата история, като забележителности тук се открояват късноантична римска гробница и турската крепост Меджиди Табия.
+                
+                        <br><span><a href = "https://bg.wikipedia.org/wiki/%D0%A1%D0%B8%D0%BB%D0%B8%D1%81%D1%82%D1%80%D0%B0" target="_blank">Още...</a></span>
+                    </p>
+                    </div>
+                    <script>
+                        modalit("myModal18", "Sil", 18);
+                    </script>
+            </div>
+            </div>
+            
+        </div>
+
+        <div class = "imagesSC">
+            <h1 id = "SC">Северен централен</h1>
+            <p onclick = 'checkForId("go_back_ruse")' class = "gradli"><a href = "#Rus">Ruse</a></p>
+            <div style="background-image: url(resources/VelikoTarnovo.jpg);" class = "Veliko Tarnovo">
+                <a id = "Vel">Veliko Tarnovo, 0.068 mln</a>
+                <div id="myModal19" class="modal">
+
+                    <!-- Modal content -->
+                    <div class="modal-content">
+                    <span class="close">&times;</span>
+                    <p>Велѝко Тъ̀рново е град, намиращ се в Северна България, център на едноименната област, както и на Северен централен регион. Градът е столица на Втората българска държава и на Княжество България в периода 1878 – 1879 г. През Средновековието носи името Търновград, като постепенно става известен с наименованието Търново. На 27 юли 1965 г. пред него е добавено „Велико“ в чест на предишната слава на града. Благодарение на богатото си културно-историческо наследство Велико Търново е важен туристически център.
+
+                        Градът е с население 68 859 души към 31.12.2018 г. и е един от четирите града в България с положителен естествен прираст от 2006 до 2014 г. Агломерацията Велико Търново – Горна Оряховица и още няколко по малки населени места е с население над 130 000 души!
+                        
+                        Разположен между Дунавската равнина и Стара планина, върху първите възвишения на Предбалкана, Търново е основен административен, индустриален и образователен център на региона. Тук се намират Националният военен университет „Васил Левски“ – факултет „Общовойскови“, ВТУ „Св. св. Кирил и Методий“ (вторият по големина университет в България), катедралата Рождество Богородично, крепостите Царевец и Трапезица, множество музеи и културни забележителности; общо 1613 обекта от историческото наследство на България.
+                        
+                        През 1879 г. в града се провежда Учредителното събрание, поставящо началото на Третата българска държава. Пазител на града е св. Патриарх Евтимий, чийто паметник се издига над сградата на Великотърновския университет. Велико Търново е град-кандидат за Европейска столица на културата 2019. Връх на антарктическия остров Ливингстън е наименуван Търново в чест на старата столица на Република България.
+                        
+                        С решение на Народното събрание, от 16 април 2019 г. гр. Велико Търново е обявен за историческа и духовна столица на България.
+                
+                        <br><span><a href = "https://bg.wikipedia.org/wiki/%D0%92%D0%B5%D0%BB%D0%B8%D0%BA%D0%BE_%D0%A2%D1%8A%D1%80%D0%BD%D0%BE%D0%B2%D0%BE" target="_blank">Още...</a></span>
+                    </p>
+                    </div>
+                    <script>
+                        modalit("myModal19", "Vel", 19);
+                    </script>
+            </div>
+            </div>
+            <div style="background-image: url(resources/Gabrovo.jpg);" class = "Gabrovo">
+                <a id = "Gab">Gabrovo, 0.052 mln</a>
+                <div id="myModal20" class="modal">
+
+                    <!-- Modal content -->
+                    <div class="modal-content">
+                    <span class="close">&times;</span>
+                    <p>Га̀брово е град в централна България, административен и стопански център на едноименните община Габрово и област Габрово. Разположен е по поречието на река Янтра в северното подножие на Шипченския дял на Стара планина. В непосредствена близост до него, в местността Узана, се намира географският център на България.
+
+                        По последни данни на НСИ към 31.12.2019 г. населението на Габрово е 51 217 души.
+                        
+                        Габровци са известни с любовта си към хумора (виж Габровски шеги), с ежегодния си хумористичен карнавал на хумора и сатирата, със своето машиностроене, с многобройните паметници и мостове и дълги улици.
+                        
+                        Габрово е най-дългият град в България със своите 25 km от кв. Ябълка до яз. Смирненски.
+                
+                        <br><span><a href = "https://bg.wikipedia.org/wiki/%D0%93%D0%B0%D0%B1%D1%80%D0%BE%D0%B2%D0%BE" target="_blank">Още...</a></span>
+                    </p>
+                    </div>
+                    <script>
+                        modalit("myModal20", "Gab", 20);
+                    </script>
+            </div>
+            </div>
+            <div style="background-image: url(resources/Targovishte.jpg);" class = "Targovishte">
+                <a id = "Tar">Targovishte, 0.035 mln</a>
+                <div id="myModal21" class="modal">
+
+                    <!-- Modal content -->
+                    <div class="modal-content">
+                    <span class="close">&times;</span>
+                    <p>Търго̀вище (до 1934 година – Ескѝ Джумая̀) е областен град в Североизточна България,
+                         административен и стопански център на едноименната община Търговище и област Търговище. Населението на града към 31 декември 2019 г. е 35 344 жители.
+                
+                         <br><span><a href = "https://bg.wikipedia.org/wiki/%D0%A2%D1%8A%D1%80%D0%B3%D0%BE%D0%B2%D0%B8%D1%89%D0%B5" target="_blank">Още...</a></span>
+                    </p>
+                    </div>
+                    <script>
+                        modalit("myModal21", "Tar", 21);
+                    </script>
+            </div>
+            </div>
+            <div style="background-image: url(resources/Razgrad.jpg);" class = "Razgrad">
+                <a id = "Raz">Razgrad, 0.030 mln</a>
+                <div id="myModal22" class="modal">
+
+                    <!-- Modal content -->
+                    <div class="modal-content">
+                    <span class="close">&times;</span>
+                    <p>Ра̀зград е град, разположен в Североизточна България. Той е административен център на община Разград, област Разград.
+                         Разположен е в южната част на историко-географска област Лудогорие. Според последното преоброяване на НСИ към 31.12.2019 година населението на град Разград е 30 173 жители.
+                
+                         <br><span><a href = "https://bg.wikipedia.org/wiki/%D0%A0%D0%B0%D0%B7%D0%B3%D1%80%D0%B0%D0%B4" target="_blank">Още...</a></span>
+                    </p>
+                    </div>
+                    <script>
+                        modalit("myModal22", "Raz", 22);
+                    </script>
+            </div>
+            </div>
+            
+            
+        </div>
+
+        <div class = "imagesSI">
+            <h1 id = "SZ">Северозападен Район</h1>
+            <p onclick = 'checkForId("go_back_pleven")' class = "gradli"><a href = "#Ple">Pleven</a></p>
+            <div style="background-image: url(resources/Vratsa.jpg);" class = "Vratsa">
+                <a id = "Vra">Vratsa, 0.051 mln</a>
+                <div id="myModal23" class="modal">
+
+                    <!-- Modal content -->
+                    <div class="modal-content">
+                    <span class="close">&times;</span>
+                    <p>Враца (стара паралелна форма Вратца) е най-големият град в Северозападна България с население към 2019 г. 51 674 души.  Административен и стопански център на едноименните община Враца и област Враца. Намира се на около 112 km северно от София, 40 km югоизточно от Монтана.
+
+                        Разположен в подножието на Врачанския Балкан, градът е отправна точка към множество пещери, водопади и интересни скални образувания. Най-известни сред тях са пещерата Леденика, водопадът Скакля и проходът Вратцата.
+                        
+                        Във Враца се съхранява Рогозенското съкровище, което е най-голямото тракийско съкровище.
+                        
+                        Ежегодно в града се провеждат Ботевите дни, чиято кулминация са митингът-заря на 1 юни, провеждан на площад „Христо Ботев“, както и всенародното поклонение на 2 юни на връх Околчица.
+                        
+                        Девизът на Враца е „Град като Балкана – древен и млад“.
+                        
+                        Враца е единственият град в България, където от 2017 година движението на каруци по улиците в пределите на града е забранено.
+                
+                        <br><span><a href = "https://bg.wikipedia.org/wiki/%D0%92%D1%80%D0%B0%D1%86%D0%B0" target="_blank">Още...</a></span>
+                    </p>
+                    </div>
+                    <script>
+                        modalit("myModal23", "Vra", 23);
+                    </script>
+            </div>
+            </div>
+            <div style="background-image: url(resources/Vidin.jpg);" class = "Vidin">
+                <a id = "Vid">Vidin, 0.041 mln</a>
+                <div id="myModal24" class="modal">
+
+                    <!-- Modal content -->
+                    <div class="modal-content">
+                    <span class="close">&times;</span>
+                    <p>Вѝдин е областен и общински град в Северозападна България, разположен по поречието на река Дунав. Той е административен и стопански център на едноименните община Видин и област Видин.
+
+                        НСИ определя населението на града на 41 583 жители към 2018 г
+                
+                        <br><span><a href = "https://bg.wikipedia.org/wiki/%D0%92%D0%B8%D0%B4%D0%B8%D0%BD" target="_blank">Още...</a></span>
+                    </p>
+                    </div>
+                    <script>
+                        modalit("myModal24", "Vid", 24);
+                    </script>
+            </div>
+            </div> 
+            <div style="background-image: url(resources/Montana.jpg);" class = "Montana">
+                <a id = "Mon">Montana, 0.038 mln</a>
+                <div id="myModal25" class="modal">
+
+                    <!-- Modal content -->
+                    <div class="modal-content">
+                    <span class="close">&times;</span>
+                    <p>Монта̀на е областен град в Северозападна България, административен и стопански център на едноименните община 
+                        Монтана и област Монтана. Населението на града е 38 341 жители според оценка на НСИ към 31.12.2019 г.
+                
+                        <br><span><a href = "https://bg.wikipedia.org/wiki/%D0%9C%D0%BE%D0%BD%D1%82%D0%B0%D0%BD%D0%B0" target="_blank">Още...</a></span>
+                    </p>
+                    </div>
+                    <script>
+                        modalit("myModal25", "Mon", 25);
+                    </script>
+            </div>
+            </div>
+            <div style="background-image: url(resources/Lovetch.jpg);" class = "Lovetch">
+                <a id = "Lov">Lovetch, 0.031 mln</a>
+                <div id="myModal26" class="modal">
+
+                    <!-- Modal content -->
+                    <div class="modal-content">
+                    <span class="close">&times;</span>
+                    <p>Ло̀веч е град в Централна Северна България. По време на османската власт е наричан „Алтън Ловеч“ – „Златният Ловеч“. 
+                        Днес Ловеч е административен и стопански център на едноименните община Ловеч и област Ловеч. Населението на града по данни на НСИ към 31.12.2019 г. е 31 695 жители.
+                
+                        <br><span><a href = "https://bg.wikipedia.org/wiki/%D0%9B%D0%BE%D0%B2%D0%B5%D1%87" target="_blank">Още...</a></span>
+                    </p>
+                    </div>
+                    <script>
+                        modalit("myModal26", "Lov", 26);
+                    </script>
+            </div>
+            </div>
+            
+        </div>
+
+       
+    
+    </div>
+   
+   
+    <footer>
+        <p>
+            <iframe id = "map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1500743.6516027574!2d24.42225138895548!3d42.72192861945938!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40a8fec1c85bf089%3A0xa01269bf4c10!2z0JHRitC70LPQsNGA0LjRjw!5e0!3m2!1sbg!2sbg!4v1607157192661!5m2!1sbg!2sbg" 
+            style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        </p>
+        <div id = "footer_text">
+            <p>Сайт за 27 областни града в България</p>
+            <p>Връзки и конакти:</p>
+            <a class="fa fa-facebook" href = "https://www.facebook.com" target="_blank"></a>
+        </div>
+
+    </footer>
+</body>
+</html>

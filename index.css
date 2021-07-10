@@ -1,0 +1,460 @@
+header {
+    top: 0;
+    background-color: black;
+    color: white;
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    border-bottom: 2px solid white;
+
+    
+}
+#Nachalo {
+   
+    padding-right: 10px;
+    
+}
+
+#Menu {
+    padding-right: 15px;
+    padding-left: 10px;
+    margin-right: 10px; 
+    
+}
+
+.one {
+    
+    padding-right: 10px;
+    position: relative;
+    display: inline-block;
+    color: black;
+
+}
+@media screen and (max-width:1110px) {
+   
+    .dropbtn {
+        display: none;
+    }
+
+    
+}
+
+@media screen and (min-width:1110px) {
+    .dropbtn {
+        background-color: black;
+        color: white;
+        padding: 5px;
+        border: none;
+        cursor: pointer;
+        font-size: 20px;
+      }
+    
+
+}
+@media screen and (min-width:1320px){
+.dropbtn {
+    background-color: black;
+    color: white;
+    padding: 5px;
+    border: none;
+    cursor: pointer;
+    font-size: 24px;
+  }
+
+  
+}
+.menu_button {
+    width: 35px;
+    height: 5px;
+    background-color: white;
+    margin: 6px 0;
+    display: none;
+    
+    
+}
+
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-size: 20px;
+  }
+
+  .dropdown-content a:hover {background-color: green}
+  
+  .one:hover .dropdown-content {
+    display: block;
+  }
+
+  .one:hover .dropbtn {
+    /*background-color: #3e8e41;*/
+    background-color: green;
+  }
+
+body {
+    margin: 0;
+}
+
+h1 {
+    font-family: 'Crimson Text', serif;
+    color: black;
+    color: green;
+    
+    
+}
+.main {
+    
+    padding-top: 70px;
+    font-size: 50px;
+    text-align: center;
+   
+    
+   
+}
+
+
+.go_back {
+    border: solid tomato;
+    border-width: 0 5px 5px 0;
+    padding: 3px;
+    transform: rotate(135deg);
+  -webkit-transform: rotate(-315deg);
+    position: relative;
+    right: -49%;
+    bottom: -25%;
+    display: none;
+    height: 20px;
+    width: 25px;
+    max-height: 0px;
+    cursor: pointer;
+   
+} 
+
+
+#go_back2 {
+    border: solid tomato;
+    border-width: 0 5px 5px 0;
+    display: inline-block;
+    padding: 3px;
+    transform: rotate(-135deg);
+  -webkit-transform: rotate(-135deg);
+    position: fixed;
+    bottom: 22px;
+    right: 15px;
+    display: none;
+
+}
+
+#go_back3 {
+    border: solid tomato;
+    border-width: 0 5px 5px 0;
+    display: inline-block;
+    padding: 3px;
+    transform: rotate(-135deg);
+  -webkit-transform: rotate(-135deg);
+    position: fixed;
+    bottom: 12px;
+    right: 45px;
+    display: none;
+
+}
+
+
+.main a {
+    text-decoration: none;
+    color: white;
+    cursor:pointer;
+    
+}
+
+a :visited {
+    color: white;
+   
+}
+
+.main a:link {
+    color: white;
+    
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.gradli a{
+    color: black;
+}
+@media screen and (max-width: 700px) {
+    .images7 div {
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        background-attachment: fixed;
+        height: 90vh;
+        padding-top: 30px;
+        max-width: 100%;
+        
+    
+    }
+
+}
+.images7 div {
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 90vh;
+    padding-top: 30px;
+    
+    
+
+}
+
+.imagesYZ div {
+
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 90vh;
+    padding-top: 30px;
+}
+
+.imagesYC div {
+
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 90vh;
+    padding-top: 30px;
+}
+
+.imagesYI div {
+
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 90vh;
+    padding-top: 30px;
+}
+
+.imagesSZ div {
+
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 90vh;
+    padding-top: 30px;
+}
+
+.imagesSC div {
+
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 90vh;
+    padding-top: 30px;
+}
+
+.imagesSI div {
+
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 90vh;
+    padding-top: 30px;
+}
+
+
+#map {
+    display: block;
+    justify-content: center;
+    padding-left: 10%;
+    width: 80%; 
+    height: 600px; 
+   
+}
+
+
+
+.modal {
+    display: none; 
+    position: fixed; 
+    z-index: 100000; 
+    padding-top: 100px; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%;
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.4); 
+    font-size: 40px;
+  }
+
+  .modal a {
+      color: blue;
+  }
+  
+  .modal a:visited {
+      color: gray; 
+  }
+  
+  .modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    overflow: auto;
+  }
+  
+  /* The Close Button */
+  .close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 32px;
+    font-weight: bold;
+    
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: green;
+    text-decoration: none;
+    cursor: pointer;
+    
+  } 
+
+footer {
+    bottom: 0;
+    
+    
+}
+footer p {
+    text-align: center;   
+    
+}
+
+#footer_text {
+    padding-top: 10px;
+    
+}
+
+#dropdown-mobile {
+
+    display: none;
+    position: relative;
+    max-width: 1100px;
+    background-color: black;
+    width: 200px;
+    
+}
+
+.dropdown-mobile-more {
+    display: none;
+    color: white;
+    position: relative;
+    background-color: black;
+    width: 195px;
+    font-size: 18px;
+    padding-left: 5px;
+}
+.button-mobile {
+    color: white;
+    background-color: black;
+    border: black;
+    cursor: pointer;
+    height: 50px;
+    font-size: 18px;
+    
+}
+
+ .button-mobile:hover { 
+    background-color: green;
+}
+
+
+
+.dropdown-mobile-more a:link {
+    color: white;
+    
+}
+
+.dropdown-mobile-more a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+.dropdown-mobile-more a:hover {
+    background-color: green;
+}
+
+
+
+@media screen and (max-width:1110px) { 
+
+    h1 {
+        font-size: 65px;
+    }
+
+    .modal {
+        font-size: 30px;
+    }
+
+    .menu_button {
+        display: block;
+        margin-right: 500px;
+        cursor: pointer;
+        
+        
+    }
+
+    .the_button {
+        float: left;
+        position: absolute;
+        left: 30px;
+        
+    }
+}
+
+
+.fa-facebook {
+    background-color: #3B5998;
+    color: white;
+  }
+
+  .fa {
+    padding: 8px;
+    font-size: 20px;
+    width: 10px;
+    text-align: center;
+    text-decoration: none;
+    margin-left: 50%;
+    margin-bottom: 10px;
+    display: flex;
+     
+  }
+  
+ a {text-decoration: none;}
+
+
+

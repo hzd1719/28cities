@@ -1,0 +1,60 @@
+/*.Sofia {
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 90vh;
+    display: block;
+    padding-top: 30px;
+   
+    
+
+}
+
+.Plovdiv {
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 90vh;
+    display: block;
+    padding-top: 30px;
+   
+}
+
+.Varna {
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 90vh;
+    display: block;
+}
+
+.Burgas {
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 90vh;
+    display: block;
+}
+
+.StaraZagora {
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 90vh;
+    display: block;
+}
+*/
+
+Като цъкна някъде да се отвори ново прозорче с кратка информация за града и 
+опция да разгледам галерия на града
+
+-Адаптивния дизайн да оправя
+-Да добавя стрелкичка която те праща на горния район
+-Линк към градовете от топ 7 в районите
+-От топ 7 градовете трябва да има линкове обратно към дадения район
+
